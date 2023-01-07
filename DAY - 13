@@ -1,0 +1,13 @@
+number = int(input())
+
+
+def fact_of_fact(n):
+
+    prod = 1
+    for i in range(1, n+1):
+        for j in range(1, i+1):
+            prod *= j
+    print(prod)
+
+
+fact_of_fact(number)
